@@ -1,6 +1,6 @@
 import { makeExecutableSchema } from 'graphql-tools'
 import { gql, ApolloServer } from 'apollo-server'
-import request from 'request-promise-native'
+import axios from 'axios'
 import { applyMiddleware } from 'graphql-middleware'
 
 import { shield, allow, deny } from '../src'
@@ -37,7 +37,7 @@ describe('integration tests', () => {
     })
 
     await server.listen({ port: 8008 })
-    const uri = `http://localhost:8008/`
+    const url = `http://localhost:8008/`
 
     /* Tests */
 
@@ -48,18 +48,13 @@ describe('integration tests', () => {
       }
     `
 
-    const res = await request({
-      uri,
-      method: 'POST',
-      json: true,
-      body: { query },
-    }).promise()
+    const res = await axios.post(url, { query })
 
-    expect(res.data).toEqual({
+    expect(res.data.data).toEqual({
       allow: 'allow',
       deny: null,
     })
-    expect(res.errors.length).toBe(1)
+    expect(res.data.errors.length).toBe(1)
 
     await server.stop()
   })

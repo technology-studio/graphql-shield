@@ -804,7 +804,7 @@
   resolved "https://registry.yarnpkg.com/@changesets/get-version-range-type/-/get-version-range-type-0.3.2.tgz#8131a99035edd11aa7a44c341cbb05e668618c67"
   integrity sha512-SVqwYs5pULYjYT4op21F2pVbcrca4qA/bAA3FmFXKMN7Y+HcO8sbZUTx3TAy2VXulP2FACd1aC7f2nTuqSPbqg==
 
-"@changesets/git@1.1.2", "@changesets/git@^1.1.2", "@changesets/git@^1.3.1", "@changesets/git@^1.3.2":
+"@changesets/git@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@changesets/git/-/git-1.1.2.tgz#248d4418bcb2d4f198852409cfcbd06a1fcb0424"
   integrity sha512-dfza8elsIwcYVa4fFzLaPs4+AkoCFiW3sfzkkC7WR+rG9j+zZh7CelzVpnoiAbEI2QOzeCbZKMoLSvBPgHhB1g==
@@ -813,6 +813,18 @@
     "@changesets/errors" "^0.1.4"
     "@changesets/types" "^4.0.1"
     "@manypkg/get-packages" "^1.0.1"
+    is-subdir "^1.1.1"
+    spawndamnit "^2.0.0"
+
+"@changesets/git@^1.3.1", "@changesets/git@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@changesets/git/-/git-1.3.2.tgz#336051d9a6d965806b1bc473559a9a2cc70773a6"
+  integrity sha512-p5UL+urAg0Nnpt70DLiBe2iSsMcDubTo9fTOD/61krmcJ466MGh71OHwdAwu1xG5+NKzeysdy1joRTg8CXcEXA==
+  dependencies:
+    "@babel/runtime" "^7.10.4"
+    "@changesets/errors" "^0.1.4"
+    "@changesets/types" "^5.0.0"
+    "@manypkg/get-packages" "^1.1.3"
     is-subdir "^1.1.1"
     spawndamnit "^2.0.0"
 
@@ -2328,6 +2340,14 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
+axios@^0.27.2:
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.27.2.tgz#207658cc8621606e586c85db4b41a750e756d972"
+  integrity sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==
+  dependencies:
+    follow-redirects "^1.14.9"
+    form-data "^4.0.0"
+
 babel-jest@^27.5.1:
   version "27.5.1"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-27.5.1.tgz#a1bf8d61928edfefd21da27eb86a695bfd691444"
@@ -3461,6 +3481,11 @@ find-yarn-workspace-root2@1.2.16:
     micromatch "^4.0.2"
     pkg-dir "^4.2.0"
 
+follow-redirects@^1.14.9:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
+  integrity sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==
+
 for-each@^0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/for-each/-/for-each-0.3.3.tgz#69b447e88a0a5d32c3e7084f3f1710034b21376e"
@@ -3468,7 +3493,7 @@ for-each@^0.3.3:
   dependencies:
     is-callable "^1.1.3"
 
-form-data@4.0.0:
+form-data@4.0.0, form-data@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
   integrity sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==
@@ -5417,10 +5442,15 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha512-ESF23V4SKG6lVSGZgYNpbsiaAkdab6ZgOxe52p7+Kid3W3u3bxR4Vfd/o21dmN7jSt0IwgZ4v5MUd26FEtXE9w==
 
-prettier@2.4.1, prettier@^1.19.1:
+prettier@2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
   integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
+
+prettier@^1.19.1:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
 pretty-format@^26.0.0, pretty-format@^26.6.2:
   version "26.6.2"
