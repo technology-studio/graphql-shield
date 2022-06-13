@@ -113,7 +113,7 @@ function AppContent(appProps: AppProps) {
           },
           {
             children: 'GitHub',
-            href: 'https://github.com/maticzav/graphql-shield',
+            href: 'https://github.com/technology-studio/graphql-shield',
             target: '_blank',
             rel: 'noopener norefereer',
             title: "Head to the project's GitHub",

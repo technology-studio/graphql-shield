@@ -2,7 +2,7 @@
 
 > WIP
 
-This is an example showing how to use `graphql-shield` with [graphql-middleware-forward-binding](https://github.com/maticzav/graphql-middleware-forward-binding)
+This is an example showing how to use `graphql-shield` with [graphql-middleware-forward-binding](https://github.com/technology-studio/graphql-middleware-forward-binding)
 
 ## Try these out
 

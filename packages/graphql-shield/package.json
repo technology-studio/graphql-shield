@@ -1,5 +1,5 @@
 {
-  "name": "graphql-shield",
+  "name": "@txo/graphql-shield",
   "description": "GraphQL Server permissions as another layer of abstraction!",
   "version": "0.0.0-semantic-release",
   "main": "dist/index.js",
@@ -8,10 +8,10 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/maticzav/graphql-shield",
+  "homepage": "https://github.com/technology-studio/graphql-shield",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maticzav/graphql-shield.git"
+    "url": "https://github.com/technology-studio/graphql-shield.git"
   },
   "scripts": {},
   "dependencies": {
