@@ -15,9 +15,9 @@
   },
   "scripts": {},
   "dependencies": {
-    "@types/yup": "0.29.13",
+    "@types/yup": "0.29.14",
     "object-hash": "^2.0.3",
-    "yup": "^0.32.0"
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/node": "14.17.34",
