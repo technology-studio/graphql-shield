@@ -44,7 +44,7 @@
     "graphql": "15.8.0",
     "graphql-middleware": "6.1.29",
     "graphql-shield-rules": "0.0.1",
-    "graphql-tools": "7.0.5",
+    "graphql-tools": "8.2.12",
     "husky": "6.0.0",
     "jest": "27.5.1",
     "lint-staged": "13.0.1",
