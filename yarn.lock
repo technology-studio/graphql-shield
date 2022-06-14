@@ -1179,7 +1179,7 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
-"@txo/graphql-middleware@^7.0.2":
+"@txo/graphql-middleware@7.0.2":
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/@txo/graphql-middleware/-/graphql-middleware-7.0.2.tgz#60645787c29a3f87d7db14bce24ea63673cae1b5"
   integrity sha512-c1AFGbYsjhCsjwDErpeDbjdFQd/gy+ej7s+u7pGoSxvLvKKsD9d4cae0xhQMAL4jRF7pJKNzOB6yPhgRCFALwg==
