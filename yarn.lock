@@ -922,7 +922,7 @@
     tslib "~2.2.0"
     value-or-promise "1.0.6"
 
-"@graphql-tools/delegate@^8.4.3":
+"@graphql-tools/delegate@^8.7.11":
   version "8.7.11"
   resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-8.7.11.tgz#89cdd049fae838f4a5f232e69f0e5e9ec0cbec16"
   integrity sha512-Rm9ThQHPOz/78OsoB8pZF+8YJm7cHsFMbGa67Q2hLmEAf2xLmNKvsfKfnxYuLnfmpdRxdSmab/ecHZ0qW/DS5w==
@@ -1088,7 +1088,7 @@
     micromatch "^4.0.4"
     tslib "^2.4.0"
 
-"@graphql-tools/schema@8.3.14", "@graphql-tools/schema@^8.0.2", "@graphql-tools/schema@^8.3.1":
+"@graphql-tools/schema@8.3.14", "@graphql-tools/schema@^8.0.2", "@graphql-tools/schema@^8.3.14":
   version "8.3.14"
   resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-8.3.14.tgz#0aeab46daab70fb7505c950dc7e83a3da0eeb7ce"
   integrity sha512-ntA4pKwyyPHFFKcIw17FfqGZAiTNZl0tHieQpPIkN5fPc4oHcXOfaj1vBjtIC/Qn6H7XBBu3l2kMA8FpobdxTQ==
@@ -3630,13 +3630,13 @@ graphql-extensions@^0.15.0:
     apollo-server-env "^3.1.0"
     apollo-server-types "^0.9.0"
 
-graphql-middleware@6.1.13:
-  version "6.1.13"
-  resolved "https://registry.yarnpkg.com/graphql-middleware/-/graphql-middleware-6.1.13.tgz#3019ea6854509a028a5c88e6123879287ef10b36"
-  integrity sha512-P2LDzGvcA+QgTxtqo1pFIlJ4KtHDbQkwMlh9nLYlfAByXPi9gLx0IZ8D2ZMD+LRjy6aQJUxmEBdoRCI1MxxeaA==
+graphql-middleware@6.1.29:
+  version "6.1.29"
+  resolved "https://registry.yarnpkg.com/graphql-middleware/-/graphql-middleware-6.1.29.tgz#44c93b811303e68b3cb0a845afcd8d1b1e18f361"
+  integrity sha512-yEJgw0d7vEoc+yFdu7mmtDeYrsP10a526DIHTHaj3RJVqrVvTuCkRsNVfDDfqQQAQXYxF2n0fzHm5AO5DX4eLQ==
   dependencies:
-    "@graphql-tools/delegate" "^8.4.3"
-    "@graphql-tools/schema" "^8.3.1"
+    "@graphql-tools/delegate" "^8.7.11"
+    "@graphql-tools/schema" "^8.3.14"
 
 graphql-shield-rules@0.0.1:
   version "0.0.1"
