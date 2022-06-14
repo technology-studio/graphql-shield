@@ -1,6 +1,6 @@
 import { graphql, GraphQLResolveInfo } from 'graphql'
-import { applyMiddleware } from 'graphql-middleware'
-import { makeExecutableSchema } from 'graphql-tools'
+import { applyMiddleware } from '@txo/graphql-middleware'
+import { makeExecutableSchema } from '@graphql-tools/schema'
 
 import { shield, rule, allow, deny, and, or, not } from '../src'
 import { LogicRule } from '../src/rules'
@@ -42,7 +42,10 @@ describe('logic rules', () => {
         deny
       }
     `
-    const res = await graphql(schemaWithPermissions, query)
+    const res = await graphql({
+      schema: schemaWithPermissions, 
+      source: query, 
+    })
 
     /* Tests */
 
@@ -97,7 +100,10 @@ describe('logic rules', () => {
         ruleError
       }
     `
-    const res = await graphql(schemaWithPermissions, query)
+    const res = await graphql({
+      schema: schemaWithPermissions, 
+      source: query, 
+    })
 
     /* Tests */
 
@@ -173,7 +179,10 @@ describe('logic rules', () => {
         ruleError
       }
     `
-    const res = await graphql(schemaWithPermissions, query)
+    const res = await graphql({
+      schema: schemaWithPermissions, 
+      source: query, 
+    })
 
     /* Tests */
 
@@ -252,7 +261,10 @@ describe('logic rules', () => {
         ruleError
       }
     `
-    const res = await graphql(schemaWithPermissions, query)
+    const res = await graphql({
+      schema: schemaWithPermissions, 
+      source: query, 
+    })
 
     /* Tests */
 
@@ -303,7 +315,10 @@ describe('logic rules', () => {
         deny
       }
     `
-    const res = await graphql(schemaWithPermissions, query)
+    const res = await graphql({
+      schema: schemaWithPermissions, 
+      source: query, 
+    })
 
     /* Tests */
 
@@ -380,7 +395,10 @@ describe('logic rules', () => {
         customRuleErrorString
       }
     `
-    const res = await graphql(schemaWithPermissions, query)
+    const res = await graphql({
+      schema: schemaWithPermissions, 
+      source: query, 
+    })
 
     expect(res.data).toEqual({
       allow: 'allow',
@@ -425,7 +443,10 @@ describe('logic rules', () => {
         not
       }
     `
-    const res = await graphql(schemaWithPermissions, query)
+    const res = await graphql({
+      schema: schemaWithPermissions, 
+      source: query, 
+    })
 
     expect(res.data).toEqual({
       not: null,
@@ -483,7 +504,10 @@ describe('internal execution', () => {
         deny
       }
     `
-    const res = await graphql(schemaWithPermissions, query)
+    const res = await graphql({
+      schema: schemaWithPermissions, 
+      source: query, 
+    })
 
     /* Tests */
 
