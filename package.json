@@ -5,9 +5,6 @@
   "workspaces": [
     "packages/@txo/*"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "prepare": "husky install",
     "prebuild": "rimraf packages/*/dist",
