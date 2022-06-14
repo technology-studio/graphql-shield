@@ -1,4 +1,5 @@
 {
+  "name": "@txo/graphql-shield-monorepo",
   "private": true,
   "author": "Matic Zavadlal <matic.zavadlal@gmail.com>",
   "license": "MIT",
