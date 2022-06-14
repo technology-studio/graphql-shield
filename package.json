@@ -10,7 +10,7 @@
     "access": "public"
   },
   "release": {
-    "branch": "main"
+    "branches": "main"
   },
   "scripts": {
     "prepare": "husky install",
