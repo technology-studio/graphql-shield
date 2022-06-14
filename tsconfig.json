@@ -3,7 +3,7 @@
     "incremental": true,
     "baseUrl": ".",
 
-    "rootDir": "packages",
+    "rootDir": "src",
     "outDir": "dist",
 
     "esModuleInterop": true,
@@ -28,11 +28,10 @@
 
     "paths": {
       "@graphqlshield/*": [
-        "packages/*/src/index.ts",
-        "packages/plugins/*/src/index.ts"
+        "./src/index.ts"
       ]
     }
   },
-  "include": ["packages"],
+  "include": ["src"],
   "exclude": ["**/dist", "**/temp"]
 }
