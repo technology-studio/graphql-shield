@@ -7,7 +7,9 @@ import {
 } from '../src/utils'
 import { rule, and } from '../src/constructors'
 
-import { testSimpleRule, testLogicRule } from 'graphql-shield-rules'
+const testSimpleRule = rule()(() => false)
+const testLogicRule = and(testSimpleRule, rule()(() => false ))
+
 
 describe('type identifiers', () => {
   test('isRuleFunction finds rule function.', async () => {

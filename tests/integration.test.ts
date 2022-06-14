@@ -1,7 +1,7 @@
-import { makeExecutableSchema } from 'graphql-tools'
+import { makeExecutableSchema } from '@graphql-tools/schema'
 import { gql, ApolloServer } from 'apollo-server'
 import axios from 'axios'
-import { applyMiddleware } from 'graphql-middleware'
+import { applyMiddleware } from '@txo/graphql-middleware'
 
 import { shield, allow, deny } from '../src'
 

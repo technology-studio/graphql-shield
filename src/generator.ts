@@ -2,7 +2,7 @@ import {
   IMiddleware,
   IMiddlewareFunction,
   IMiddlewareGeneratorConstructor,
-} from 'graphql-middleware'
+} from '@txo/graphql-middleware'
 import {
   GraphQLSchema,
   GraphQLObjectType,
@@ -25,7 +25,7 @@ import {
   withDefault,
 } from './utils'
 import { ValidationError } from './validation'
-import { IMiddlewareWithOptions } from 'graphql-middleware/dist/types'
+import { IMiddlewareWithOptions } from '@txo/graphql-middleware/dist/types'
 
 /**
  *

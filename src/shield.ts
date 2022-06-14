@@ -1,5 +1,5 @@
 import hash from 'object-hash'
-import { middleware, IMiddlewareGenerator } from 'graphql-middleware'
+import { middleware, IMiddlewareGenerator } from '@txo/graphql-middleware'
 import { ValidationError, validateRuleTree } from './validation'
 import { IRules, IOptions, IOptionsConstructor, ShieldRule, IHashFunction, IFallbackErrorType } from './types'
 import { generateMiddlewareGeneratorFromRuleTree } from './generator'
