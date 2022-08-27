@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@graphql-tools/schema": "8.5.1",
-    "@txo/graphql-middleware": "7.0.6",
+    "@txo/graphql-middleware": "7.0.7",
     "@types/jest": "28.1.8",
     "@types/node": "16.11.56",
     "@types/object-hash": "2.2.1",
