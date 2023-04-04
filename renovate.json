@@ -3,6 +3,10 @@
     "config:base",
     ":automergeMinor"
   ],
+  "reviewers": [
+    "rostislav-simonik",
+    "erik-slovak"
+  ],
   "postUpdateOptions": ["yarnDedupeFewer"],
   "packageRules": [
     {
