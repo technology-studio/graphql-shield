@@ -1,5 +1,5 @@
 import * as Yup from 'yup'
-import type { ValidateOptions } from 'yup/lib/types'
+import type { ValidateOptions } from 'yup'
 import {
   IRuleFunction,
   IRuleConstructorOptions,
@@ -73,7 +73,7 @@ export const rule = (
  * @param schema
  */
 export const inputRule = <T>(name?: string) => (
-  schema: (yup: typeof Yup, ctx: IShieldContext) => Yup.BaseSchema<T>,
+  schema: (yup: typeof Yup, ctx: IShieldContext) => Yup.Schema<T>,
   options?: ValidateOptions,
 ) => {
   if (typeof name === 'string') {

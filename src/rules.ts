@@ -1,5 +1,5 @@
 import * as Yup from 'yup'
-import type { ValidateOptions } from 'yup/lib/types'
+import type { ValidateOptions } from 'yup'
 import {
   IRuleFunction,
   IRule,
@@ -211,7 +211,7 @@ export class Rule implements IRule {
 export class InputRule<T> extends Rule {
   constructor(
     name: string,
-    schema: (yup: typeof Yup, ctx: IShieldContext) => Yup.BaseSchema<T>,
+    schema: (yup: typeof Yup, ctx: IShieldContext) => Yup.Schema<T>,
     options?: ValidateOptions,
   ) {
     const validationFunction: IRuleFunction = (
