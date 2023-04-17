@@ -6,10 +6,10 @@ module.exports = {
   testEnvironment: 'node',
   modulePathIgnorePatterns: ['/dist/'],
   testPathIgnorePatterns: ['/node_modules/', '/dist/'],
-  globals: {
-    'ts-jest': {
+  transform: {
+    '^.+\\.tsx?$': ['ts-jest', {
       diagnostics: false,
-    },
+    }]
   },
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
     prefix: '<rootDir>/',
