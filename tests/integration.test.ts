@@ -1,5 +1,7 @@
 import { makeExecutableSchema } from '@graphql-tools/schema'
-import { gql, ApolloServer } from 'apollo-server'
+import { ApolloServer } from '@apollo/server'
+import { startStandaloneServer } from '@apollo/server/standalone'
+import { gql } from 'graphql-tag'
 import axios from 'axios'
 import { applyMiddleware } from '@txo/graphql-middleware'
 
@@ -36,7 +38,9 @@ describe('integration tests', () => {
       schema: applyMiddleware(makeExecutableSchema({ typeDefs, resolvers }), permissions),
     })
 
-    await server.listen({ port: 8008 })
+    await startStandaloneServer(server, {
+      listen: { port: 8008 },
+    });
     const url = `http://localhost:8008/`
 
     /* Tests */
