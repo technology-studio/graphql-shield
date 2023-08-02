@@ -37,7 +37,7 @@
   "devDependencies": {
     "@apollo/server": "4.9.0",
     "@graphql-tools/schema": "10.0.0",
-    "@txo/graphql-middleware": "7.0.36",
+    "@txo/graphql-middleware": "7.0.37",
     "@types/jest": "29.5.3",
     "@types/node": "18.17.1",
     "@types/object-hash": "3.0.2",
