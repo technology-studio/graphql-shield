@@ -35,7 +35,7 @@
     "yup": "^1.0.0"
   },
   "devDependencies": {
-    "@apollo/server": "4.9.0",
+    "@apollo/server": "4.9.1",
     "@graphql-tools/schema": "10.0.0",
     "@txo/graphql-middleware": "7.0.37",
     "@types/jest": "29.5.3",
