@@ -39,7 +39,7 @@
     "@graphql-tools/schema": "10.0.0",
     "@txo/graphql-middleware": "7.0.39",
     "@types/jest": "29.5.8",
-    "@types/node": "18.18.9",
+    "@types/node": "20.9.0",
     "@types/object-hash": "3.0.6",
     "axios": "1.6.1",
     "codecov": "3.8.3",
