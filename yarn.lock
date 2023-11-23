@@ -500,7 +500,7 @@
     "@graphql-tools/utils" "^10.0.10"
     tslib "^2.4.0"
 
-"@graphql-tools/schema@10.0.2", "@graphql-tools/schema@^10.0.0":
+"@graphql-tools/schema@10.0.2", "@graphql-tools/schema@^10.0.0", "@graphql-tools/schema@^10.0.2":
   version "10.0.2"
   resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-10.0.2.tgz#21bc2ee25a65fb4890d2e5f9f22ef1f733aa81da"
   integrity sha512-TbPsIZnWyDCLhgPGnDjt4hosiNU2mF/rNtSk5BVaXWnZqvKJ6gzJV4fcHcvhRIwtscDMW2/YTnK6dLVnk8pc4w==
@@ -1369,13 +1369,13 @@
     "@tufjs/canonical-json" "2.0.0"
     minimatch "^9.0.3"
 
-"@txo/graphql-middleware@7.0.39":
-  version "7.0.39"
-  resolved "https://registry.yarnpkg.com/@txo/graphql-middleware/-/graphql-middleware-7.0.39.tgz#3a258e366cb9cba1b8ded0162a0dd2ab0d220ed9"
-  integrity sha512-JIBP7a3ElcdAH8n1skFsYAWJeIVIA3DKVgLqB3LIBSO0DUPifNyVnM4DZ2L5Xdz5VMnUhqMUODAC3w8ksvl61w==
+"@txo/graphql-middleware@7.0.40":
+  version "7.0.40"
+  resolved "https://registry.yarnpkg.com/@txo/graphql-middleware/-/graphql-middleware-7.0.40.tgz#22a4e9658da82b60a497b8eb866880dbc964c016"
+  integrity sha512-Mv6I1loyK7VQS1Mjr3JWoaErJULHe8F0T2z4S8kwOw3q3qmV6mf75Pn5AU5kGUj1ori8Ojl4REVRst/9bfGV6w==
   dependencies:
     "@graphql-tools/delegate" "^10.0.3"
-    "@graphql-tools/schema" "^10.0.0"
+    "@graphql-tools/schema" "^10.0.2"
 
 "@types/babel__core@^7.1.14":
   version "7.1.19"
