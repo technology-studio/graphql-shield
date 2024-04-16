@@ -20,7 +20,7 @@
     "branches": "main"
   },
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "prebuild": "rimraf dist",
     "build": "yarn tsc -b",
     "test": "jest",
