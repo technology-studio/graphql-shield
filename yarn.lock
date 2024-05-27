@@ -460,15 +460,15 @@
     tslib "^2.4.0"
     value-or-promise "^1.0.12"
 
-"@graphql-tools/delegate@^10.0.10":
-  version "10.0.10"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-10.0.10.tgz#ed92c089e077e97d4f6c05634151863cfa714638"
-  integrity sha512-OOqsPRfGatQG0qMKG3sxtxHiRg7cA6OWMTuETDvwZCoOuxqCc17K+nt8GvaqptNJi2/wBgeH7pi7wA5QzgiG1g==
+"@graphql-tools/delegate@^10.0.11":
+  version "10.0.11"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/delegate/-/delegate-10.0.11.tgz#d66b46a5f90b0c323848e0b38379836842d1ce72"
+  integrity sha512-+sKeecdIVXhFB/66e5yjeKYZ3Lpn52yNG637ElVhciuLGgFc153rC6l6zcuNd9yx5wMrNx35U/h3HsMIEI3xNw==
   dependencies:
     "@graphql-tools/batch-execute" "^9.0.4"
     "@graphql-tools/executor" "^1.2.1"
-    "@graphql-tools/schema" "^10.0.3"
-    "@graphql-tools/utils" "^10.0.13"
+    "@graphql-tools/schema" "^10.0.4"
+    "@graphql-tools/utils" "^10.2.1"
     dataloader "^2.2.2"
     tslib "^2.5.0"
 
@@ -499,7 +499,7 @@
     "@graphql-tools/utils" "^10.0.13"
     tslib "^2.4.0"
 
-"@graphql-tools/schema@10.0.4", "@graphql-tools/schema@^10.0.3":
+"@graphql-tools/schema@10.0.4", "@graphql-tools/schema@^10.0.4":
   version "10.0.4"
   resolved "https://registry.yarnpkg.com/@graphql-tools/schema/-/schema-10.0.4.tgz#d4fc739a2cc07b4fc5f31a714178a561cba210cd"
   integrity sha512-HuIwqbKxPaJujox25Ra4qwz0uQzlpsaBOzO6CVfzB/MemZdd+Gib8AIvfhQArK0YIN40aDran/yi+E5Xf0mQww==
@@ -1376,13 +1376,13 @@
     "@tufjs/canonical-json" "2.0.0"
     minimatch "^9.0.3"
 
-"@txo/graphql-middleware@7.0.46":
-  version "7.0.46"
-  resolved "https://registry.yarnpkg.com/@txo/graphql-middleware/-/graphql-middleware-7.0.46.tgz#5750d332a50abaef388747337e3e1312e93598dd"
-  integrity sha512-vY8DewPmPLE/jVu6KZ16JIYyhhLKNP3HUTre9zSxaar513emZMszuQhjZxtc4mzS6LOwrEKiEa79NDRFSWSVxA==
+"@txo/graphql-middleware@7.0.47":
+  version "7.0.47"
+  resolved "https://registry.yarnpkg.com/@txo/graphql-middleware/-/graphql-middleware-7.0.47.tgz#a018f7249b158ef1331e6f37512a921b2572a842"
+  integrity sha512-PA9JR8dYiLq3zmSpjG4a560wrGJQ0Vwtjr+tGQzw7KaeXTCPd8cesoZnAEHc5nHG+Vxa2lk9VvLuVtgaq0THLw==
   dependencies:
-    "@graphql-tools/delegate" "^10.0.10"
-    "@graphql-tools/schema" "^10.0.3"
+    "@graphql-tools/delegate" "^10.0.11"
+    "@graphql-tools/schema" "^10.0.4"
 
 "@types/babel__core@^7.1.14":
   version "7.1.19"
