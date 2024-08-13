@@ -41,7 +41,7 @@
     "@types/jest": "29.5.12",
     "@types/node": "20.14.15",
     "@types/object-hash": "3.0.6",
-    "axios": "1.7.3",
+    "axios": "1.7.4",
     "codecov": "3.8.3",
     "graphql": "16.9.0",
     "graphql-tag": "^2.12.6",
