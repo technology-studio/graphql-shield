@@ -24,8 +24,6 @@
     "prebuild": "rimraf dist",
     "build": "yarn tsc -b",
     "test": "jest",
-    "test:ci": "jest --coverage",
-    "coverage": "codecov",
     "prepublishOnly": "yarn build",
     "prettier": "prettier --ignore-path .gitignore --write --list-different \"**/*.{ts,tsx,graphql,yml}\""
   },
@@ -42,7 +40,6 @@
     "@types/node": "20.16.5",
     "@types/object-hash": "3.0.6",
     "axios": "1.7.7",
-    "codecov": "3.8.3",
     "graphql": "16.9.0",
     "graphql-tag": "^2.12.6",
     "husky": "9.1.6",
