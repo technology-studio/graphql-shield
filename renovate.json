@@ -1,18 +1,10 @@
 {
-  "extends": [
-    "config:base",
-    ":automergeMinor"
-  ],
-  "reviewers": [
-    "rostislav-simonik",
-    "erik-slovak"
-  ],
-  "postUpdateOptions": ["yarnDedupeFewer"],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>technology-studio/renovate-config"],
   "packageRules": [
     {
       "packageNames": ["graphql-shield-rules"],
       "automerge": false
     }
-  ],
-  "labels": ["dependencies"]
+  ]
 }

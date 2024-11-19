@@ -16,16 +16,16 @@
   "publishConfig": {
     "access": "public"
   },
-  "release": {
-    "branches": "main"
-  },
   "scripts": {
-    "prepare": "husky",
-    "prebuild": "rimraf dist",
     "build": "yarn tsc -b",
+    "lint": "yarn noop",
+    "lint:ci": "yarn lint",
+    "noop": ":",
+    "prebuild": "rimraf dist",
+    "prepare": "husky && yarn build",
+    "prettier": "prettier --ignore-path .gitignore --write --list-different \"**/*.{ts,tsx,graphql,yml}\"",
     "test": "jest",
-    "prepublishOnly": "yarn build",
-    "prettier": "prettier --ignore-path .gitignore --write --list-different \"**/*.{ts,tsx,graphql,yml}\""
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "object-hash": "^3.0.0",
@@ -35,6 +35,7 @@
     "@apollo/server": "4.11.2",
     "@graphql-tools/schema": "10.0.8",
     "@txo/graphql-middleware": "7.0.57",
+    "@txo/semantic-release": "^2.0.9",
     "@types/jest": "29.5.14",
     "@types/node": "20.16.5",
     "@types/object-hash": "3.0.6",
@@ -43,11 +44,9 @@
     "graphql-tag": "^2.12.6",
     "husky": "9.1.7",
     "jest": "29.7.0",
-    "lint-staged": "15.2.10",
     "prettier": "3.3.3",
     "pretty-quick": "4.0.0",
     "rimraf": "6.0.1",
-    "semantic-release": "24.1.1",
     "ts-jest": "29.2.5",
     "ts-node": "10.9.2",
     "typescript": "5.6.2"
