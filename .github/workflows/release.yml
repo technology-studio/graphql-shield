@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - main
+
+permissions:
+  id-token: write
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -30,6 +34,8 @@ jobs:
       - run: yarn build
       - run: yarn test --coverage
       - uses: codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238 # v4
+        with:
+          use_oidc: true
       - run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

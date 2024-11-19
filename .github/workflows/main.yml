@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write
+
 jobs:
   test:
     name: Testing on ubuntu-latest and Node LTS
@@ -48,3 +51,5 @@ jobs:
           CI: true
       - name: Report Coverage
         uses: codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238 # v4
+        with:
+          use_oidc: true
