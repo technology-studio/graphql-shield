@@ -4,7 +4,7 @@
 
 [![CircleCI](https://circleci.com/gh/technology-studio/graphql-shield/tree/master.svg?style=shield)](https://circleci.com/gh/technology-studio/graphql-shield/tree/master)
 [![codecov](https://codecov.io/gh/technology-studio/graphql-shield/branch/master/graph/badge.svg)](https://codecov.io/gh/technology-studio/graphql-shield)
-[![npm version](https://badge.fury.io/js/graphql-shield.svg)](https://badge.fury.io/js/graphql-shield)
+[![npm version](https://badge.fury.io/js/@txo%2Fgraphql-shield.svg)](https://badge.fury.io/js/@txo%2Fgraphql-shield)
 [![Backers on Open Collective](https://opencollective.com/graphql-shield/backers/badge.svg)](#backers)[![Sponsors on Open Collective](https://opencollective.com/graphql-shield/sponsors/badge.svg)](#sponsors)
 
 > GraphQL Server permissions as another layer of abstraction!
@@ -22,7 +22,7 @@ GraphQL Shield helps you create a permission layer for your application. Using a
 
 ## Documentation
 
-You can find extensive documentation at [https://graphql-shield.vercel.app](https://graphql-shield.vercel.app).
+You can find extensive documentation at [https://the-guild.dev/graphql/shield/docs](https://the-guild.dev/graphql/shield/docs).
 
 ## Contributors
 
