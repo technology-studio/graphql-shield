@@ -50,6 +50,6 @@ jobs:
         env:
           CI: true
       - name: Report Coverage
-        uses: codecov/codecov-action@b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238 # v4
+        uses: codecov/codecov-action@05f5a9cfad807516dbbef9929c4a42df3eb78766 # v5
         with:
           use_oidc: true
