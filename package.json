@@ -28,7 +28,6 @@
     "prettier": "prettier --ignore-path .gitignore --write --list-different \"**/*.{ts,tsx,graphql,yml}\""
   },
   "dependencies": {
-    "@types/yup": "0.32.0",
     "object-hash": "^3.0.0",
     "yup": "^1.0.0"
   },
