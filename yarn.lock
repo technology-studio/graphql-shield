@@ -1418,13 +1418,14 @@
     "@graphql-tools/delegate" "^10.0.21"
     "@graphql-tools/schema" "^10.0.6"
 
-"@txo/semantic-release@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-2.0.9.tgz#fb57a14c48e621fcc81ef83211ee4bedc6713972"
-  integrity sha512-gYDeW+Du1nLZtaf+87tWb8ug0CjKH8TiGqbkw+1KO6bRMW9U+KV9tw09Pf1aXFnLj/8c+p3rDXBGPzyfPSkvfg==
+"@txo/semantic-release@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-2.0.10.tgz#df2e6274d37e0c8d82f10744e45e0f531568f236"
+  integrity sha512-wdtu97/mv/Yz9l8bKf0AuvCw3xebjP3ypa1pmTIXP/deQjrYCgEEsUXMpVFj1WLgY9tUocfdCIVe01Abfc/RSg==
   dependencies:
     "@semantic-release/changelog" "^6.0.3"
     "@semantic-release/git" "^10.0.1"
+    conventional-changelog-conventionalcommits "^7.0.2"
     semantic-release "^23.1.1"
     semantic-release-slack-bot "^4.0.2"
 
@@ -2292,6 +2293,13 @@ conventional-changelog-angular@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/conventional-changelog-angular/-/conventional-changelog-angular-7.0.0.tgz#5eec8edbff15aa9b1680a8dcfbd53e2d7eb2ba7a"
   integrity sha512-ROjNchA9LgfNMTTFSIWPzebCwOGFdgkEq45EnvvrmSLvCtAw0HSmrCs7/ty+wAeYUZyNay0YMUNYFTRL72PkBQ==
+  dependencies:
+    compare-func "^2.0.0"
+
+conventional-changelog-conventionalcommits@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-7.0.2.tgz#aa5da0f1b2543094889e8cf7616ebe1a8f5c70d5"
+  integrity sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==
   dependencies:
     compare-func "^2.0.0"
 
