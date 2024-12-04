@@ -1,7 +1,7 @@
 {
   "name": "@txo/graphql-shield",
   "description": "GraphQL Server permissions as another layer of abstraction!",
-  "version": "8.0.9",
+  "version": "8.0.10",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "author": "Matic Zavadlal <matic.zavadlal@gmail.com>",
