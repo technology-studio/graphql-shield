@@ -1,3 +1,9 @@
+## [8.0.12](https://github.com/technology-studio/graphql-shield/compare/v8.0.11...v8.0.12) (2024-12-17)
+
+### Bug fixes
+
+- **deps:** update dependency yup to ^1.6.1 ([#589](https://github.com/technology-studio/graphql-shield/issues/589)) ([45fc764](https://github.com/technology-studio/graphql-shield/commit/45fc7646a5c19a41345b6eb3ddb1581373949a14))
+
 ## [8.0.11](https://github.com/technology-studio/graphql-shield/compare/v8.0.10...v8.0.11) (2024-12-16)
 
 ### Bug fixes
