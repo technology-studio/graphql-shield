@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@apollo/server": "4.11.3",
-    "@graphql-tools/schema": "10.0.19",
+    "@graphql-tools/schema": "10.0.20",
     "@txo/graphql-middleware": "7.0.57",
     "@txo/semantic-release": "^2.0.10",
     "@types/jest": "29.5.14",
