@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "object-hash": "^3.0.0",
-    "yup": "^1.6.1"
+    "yup": "^1.7.0"
   },
   "devDependencies": {
     "@apollo/server": "4.12.2",
