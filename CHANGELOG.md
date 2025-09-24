@@ -1,3 +1,13 @@
+## [8.0.14](https://github.com/technology-studio/graphql-shield/compare/v8.0.13...v8.0.14) (2025-09-24)
+
+### CI
+
+- add pr.yml permissions ([#699](https://github.com/technology-studio/graphql-shield/issues/699)) ([d726c19](https://github.com/technology-studio/graphql-shield/commit/d726c194e29ae9a636aa7d2ac258c0b970a9ed7a))
+
+### Bug fixes
+
+- **deps:** update dependency yup to ^1.7.1 ([#700](https://github.com/technology-studio/graphql-shield/issues/700)) ([d6dfcce](https://github.com/technology-studio/graphql-shield/commit/d6dfcce464d04e4cb29984feb1cb4e038a9f88d5))
+
 ## [8.0.13](https://github.com/technology-studio/graphql-shield/compare/v8.0.12...v8.0.13) (2025-08-02)
 
 ### Bug fixes
