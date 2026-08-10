@@ -35,7 +35,7 @@
     "@apollo/server": "4.13.0",
     "@graphql-tools/schema": "10.0.36",
     "@txo/graphql-middleware": "7.0.57",
-    "@txo/semantic-release": "^2.1.2",
+    "@txo/semantic-release": "^2.1.3",
     "@types/jest": "29.5.14",
     "@types/node": "22.20.1",
     "@types/object-hash": "3.0.6",
